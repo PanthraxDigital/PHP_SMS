@@ -45,7 +45,7 @@ Route::filter(
             $commitHash = substr(strrev('f967c2d078f47fba0d4300ae6fc3e98b5332192a'), 0, 7);
             if ($cHash != $commitHash) {
                 \Auth::logout();
-                return Redirect::to('/')->with('error', 'CRV: Application encounted problems.Please contact squadlLab at [hello@hrshadhin.me]');
+                return Redirect::to('/')->with('error', 'CRV: Application encounted problems.Please contact squadlLab at [hello@squadl.com]');
                
             }
         }
